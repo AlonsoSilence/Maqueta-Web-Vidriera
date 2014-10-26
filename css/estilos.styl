@@ -1,0 +1,208 @@
+@import "normalize.styl"
+
+figure
+	margin 0
+
+header
+	background rgba(255,255,255,0.6)
+	text-align center
+	.header-logo
+		height 100%
+		width 100%
+		display block
+		.header-logo-img
+			width 40%
+			display inline-block
+			margin 0
+			text-align center
+			img
+				margin 0
+				width 100%
+	.header-content-nav
+		display block
+		width 100%
+		.header-nav
+			display block
+			.header-nav-ul
+				margin 0
+				.header-ul-li
+					display inline-block
+					padding 1em
+					.header-li-a
+						padding 1em
+						color black
+						text-decoration none
+						&:hover
+							border-radius 10%
+							background #43D3F0
+					.a-activo
+						border-radius 10%
+						background #43D3F0
+				.header-li-lenguages
+					display inline-block
+					.lenguages
+						color rgba(0,0,0,0.3)
+						text-decoration none
+						font-size 0.8em
+						&:after
+							content " |"
+	.header-banner
+		position relative
+		width 100%
+		.header-banner-img
+			width 100%
+			img
+				width 100%	
+			.header-img-figcaption
+				position absolute
+				right 20%
+				top 64%
+				color white
+				background rgba(0,0,0,0.8)
+				text-align left
+				.header-figcaption-title
+					margin 0
+					font-size 2.6em
+					font-weight normal
+				.header-figcaption-content
+					margin 0
+					font-size 2em
+							
+footer
+	position relative
+	width 100%	
+	text-align center
+	display block
+	top 0
+	.footer-img
+		width 100%
+		img
+			width 20%
+	.footer-nav
+		width 100%
+		.footer-nav-ul
+			margin 0
+			.footer-li
+				display inline-block
+				.footer-a 
+					color black
+					text-decoration none
+					margin 0 0.4em
+					&:after
+						content " |"
+	.footer-web
+		color red
+section
+	display block
+	margin 3em 10% 10em 10%
+	.section-description
+		width 40%
+		.section-description-title
+			margin 0
+			text-align center
+		.section-description-p
+			margin 0
+			font-size 0.8em
+	.section-last-new
+		width 55%
+		.last-new-img
+			margin 0
+			width 50%
+		.last-new-info
+			width 45%
+			.last-new-info-header
+				position relative
+				width 100%
+				.last-new-date
+					font-weight bold
+					font-size 1em
+				.last-new-more
+					top 10%
+					position absolute
+					right 0
+					text-decoration none
+					color white
+					padding 0.6em
+					background #222	
+					&:hover
+						color #222
+						border 1px solid black
+						background #EEE
+				.last-new-more , .last-new-date
+					display inline-block
+					vertical-align top
+			.last-new-decoration
+				margin 0
+				display block
+			.last-new-title
+				margin 1em 0 0 0
+				font-size 1em
+			.last-new-description
+				margin 0
+				font-size 0.8em
+		.last-new-info , .last-new-img
+			display inline-block
+			vertical-align top
+	.section-description , .section-last-new
+		display inline-block
+		vertical-align top
+	.section-news
+		position relative
+		text-align center
+		display block
+		margin 1em 0
+		width 100%
+		.new-item-left
+			float left
+		.new-item-right
+			float right
+		.section-new-item
+			margin 1em 0
+			width 80%
+			.new-img
+				height 100% 
+				margin 0
+				width 44%
+				img 
+					height 100%
+					width 100%
+			.new-info
+				position relative
+				width 55%
+				.new-info-header
+					position relative
+					width 100%
+					.new-date
+						font-size 1em
+						font-weight bold
+						text-align left
+					.new-more
+						top 10%
+						position absolute
+						right 0
+						text-decoration none
+						color white
+						padding 0.6em
+						background #222
+						&:hover
+							color #222
+							border 1px solid black
+							background #EEE	
+					.new-more , .new-date
+						display inline-block
+						vertical-align top
+				.new-decoration
+					text-align left
+					margin 0
+					display block
+				.new-title
+					margin 1em 0 0 0
+					font-size 1em
+				.new-description
+					text-align left
+					margin 0
+					font-size 0.8em
+					 
+			.new-info,.new-img
+				display inline-block
+				vertical-align top
